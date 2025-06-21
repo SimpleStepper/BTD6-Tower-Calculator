@@ -21,20 +21,30 @@ This project combines 2 major elements:
 - Python scripting for robust data acquisition and data cleaning. 
 - Google Sheets dropdown menu for an accessible and interactive user experience.
 
-### Data Collection and Cleaning (BloonsProject.ipynb)
+### Data Collection and Cleaning (Python)
 The BloonsProject.ipynb is a jupyter notebook used to prepare the projects data. This included: 
 
 1) **How the Data is First Gathered (Automated Collection)**
-The first step was to get tower cost information directly from the Bloons TD 6 Fandom Wiki. This project uses Python to webscrape the HTML data from the Wiki, and automatically acquire all the tower names, upgrade paths, and their costs without manual input. This data is unrefined from the initial webscraping, and needs improvements before its used.
+The first step was to get tower cost information directly from the Bloons TD 6 Fandom Wiki. This project uses Python to webscrape the HTML data from the Wiki, and automatically acquire all the tower names, upgrade paths, and their costs without manual input. This data is unrefined from the initial webscraping, difficulty to work with and needed improvements before its used.
 
 2) **Data Cleaning and transformation:**
 After collecting the raw information about tower costs from the Bloons Fandom Wiki, the data was messy and required several steps to make it useable:
+-The raw data often includes extra words, symbols, or formatting alongside the actual cost numbers (e.g., "Cost: 100 Cash" or "Upgrade Price $50"). The website was also missing information on newer game updates, which were inserted manually to match existing data structure.
 
-The collected costs are initially presented in a way that might be hard to work with directly. Rows and columns had multiple data points in each row. 
--The raw data often includes extra words, symbols, or formatting alongside the actual cost numbers (e.g., "Cost: 100 Cash" or "Upgrade Price $50").
-
-The project then rearranges and organizes this data. It clearly separates the costs based on:
-- Game Difficulty: Distinguishing prices for Easy, Medium, Hard, and Impoppable modes.
-- Upgrade Tiers: Categorizing costs for each specific upgrade level (Tier 1 through Tier 5) along different upgrade paths.
+-The project then rearranges and organizes this data. It clearly separates the costs based on:
+  - Game Difficulty: Distinguishing prices for Easy, Medium, Hard, and Impoppable modes.
+  - Upgrade Tiers: Categorizing costs for each specific upgrade level (Tier 1 through Tier 5) along different upgrade paths.
 
 This structuring creates a consistent and easy-to-use dataset, and exports the data into a excel spreadsheet for further processing. 
+
+![image](https://github.com/user-attachments/assets/eabb13f2-35a2-48ea-bd9c-841bd95876af)
+
+### Data Storage & Calculation (Google Sheets)
+The processed data from the Python script is integrated with Google Sheets to create the user-facing application.
+- Each tower's base cost and upgrade costs for all difficulties and tiers are organized into 4 different sheets, making them ready for lookups and calculations.
+Formulas for User Interaction: Google Sheets is used to create dynamic formulas that allow users to interact with the data:
+ - Users can select a specific tower, its desired upgrade path(s), and the game difficulty directly within the Google Sheet interface.
+ - Formulas (e.g., VLOOKUP, SUMIFS, INDEX/MATCH combinations) automatically query the organized cost data. Based on the user's selections in the dropdown menus, these formulas calculate the total cost of the chosen tower and its upgrades.
+
+![image](https://github.com/user-attachments/assets/a4b07ded-dfaf-4729-aedb-57bef76f5122)
+
