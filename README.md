@@ -1,4 +1,4 @@
-# BTD6 Tower Unit Calculator
+# BTD6 Tower Unit Calculator - Data-Driven Cost Calculator
 ## This project aims to provide Bloons Tower Defense 6 (BTD6) players with a user-friendly application to determine the in-game cost of tower units and their upgrades across different difficulties using data scraped from the wiki.
 The final project can be accessed using this [Google Sheets link](https://docs.google.com/spreadsheets/d/1bgRTX8VRlwiGp4RJNIbdQKh3tUHXspOqAZUE-NDchDM/edit?usp=sharing). 
 
