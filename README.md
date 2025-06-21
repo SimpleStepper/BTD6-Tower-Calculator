@@ -18,7 +18,7 @@ This objective of this project was to develop a user friendly application for Bl
 
 ## Project Structure / How it was made
 This project combines 2 major elements: 
-- Python scripting for robust data acquisition and data cleaning. 
+- Python scripting for data acquisition and data cleaning. 
 - Google Sheets dropdown menu for an accessible and interactive user experience.
 
 ### Data Collection and Cleaning (Python)
