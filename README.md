@@ -31,7 +31,7 @@ The first step was to get tower cost information directly from the Bloons TD 6 F
 After collecting the raw information about tower costs from the Bloons Fandom Wiki, the data was messy and required several steps to make it useable:
 -The raw data often includes extra words, symbols, or formatting alongside the actual cost numbers (e.g., "Cost: 100 Cash" or "Upgrade Price $50"). The website was also missing information on newer game updates, which were inserted manually to match existing data structure.
 
--The project then rearranges and organizes this data. It clearly separates the costs based on:
+The project then organizes this data. It clearly separates the unit costs based on:
   - Game Difficulty: Distinguishing prices for Easy, Medium, Hard, and Impoppable modes.
   - Upgrade Tiers: Categorizing costs for each specific upgrade level (Tier 1 through Tier 5) along different upgrade paths.
 
