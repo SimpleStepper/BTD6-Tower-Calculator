@@ -13,7 +13,7 @@ The final project can be accessed using this [Google Sheets link](https://docs.g
 
 --- 
 
-## Define - Overview
+## Overview
 This objective of this project was to develop a user friendly application for Bloons Tower Defense 6 (BTD6) players to be able to determine how much a in-game Tower unit cost dynamically within Google Sheets. This project includes utilizing Python to acquire and organize data, Google Sheets to create calculation formulas, allow easy user accessibility and interaction with the app. 
 
 ## Project Structure / How it was made
