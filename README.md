@@ -11,9 +11,7 @@ This objective of this project was to develop a user friendly application for Bl
 ### Features & Functionality
 - Cost Calculation: Calculates the cost of BTD6 towers and their upgrades.
 - Difficulty-Based Pricing: Accounts for different in-game difficulties (Easy, Medium, Hard, Impoppable).
-- Data Acquisition: Utilizes web scraping to gather tower cost data from online sources.
-- Data Processing: Cleans and organizes raw data using Python (Pandas and Regex) for accurate calculations.
-- Interactive Interface: Leverages Google Sheets for user accessibility and interaction, allowing players to input choices and see costs.
+- Interactive Interface: Google Sheets dropdown menus for user accessibility and interaction,
 
 ## Project Structure / How it was made
 This project combines 2 major elements: 
