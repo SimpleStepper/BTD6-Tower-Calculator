@@ -18,10 +18,10 @@ This objective of this project was to develop a user friendly application for Bl
 
 ## Project Structure / How it was made
 This project combines 2 major elements: 
-- Python scripting for robust data acquisition and data cleaning 
-- data cleaning with Google Sheets for an accessible and interactive user experience.
+- Python scripting for robust data acquisition and data cleaning. 
+- Google Sheets dropdown menu for an accessible and interactive user experience.
 
-### Data Collection (BloonsProject.ipynb)
+### Data Collection and Cleaning (BloonsProject.ipynb)
 The BloonsProject.ipynb is a jupyter notebook used to prepare the projects data. This included: 
 
 1) **How the Data is First Gathered (Automated Collection)**
