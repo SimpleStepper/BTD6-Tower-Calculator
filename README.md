@@ -1,17 +1,19 @@
 # BTD6-Tower-Calculator
 ## This project aims to provide Bloons Tower Defense 6 (BTD6) players with a user-friendly application to determine the in-game cost of tower units and their upgrades across different difficulties.
 The final project can be accessed using this [Google Sheets link](https://docs.google.com/spreadsheets/d/1bgRTX8VRlwiGp4RJNIbdQKh3tUHXspOqAZUE-NDchDM/edit?usp=sharing). 
-
+![Bloons Project Showcase gif](https://github.com/user-attachments/assets/0e59c70d-20d5-4097-ac36-db24ffb9d9ba)
 
 --- 
-
-## Define - Overview
-This objective of this project was to develop a user friendly application for Bloons Tower Defense 6 (BTD6) players to be able to determine how much a in-game Tower unit cost. This project includes utilizing Python to acquire and organize data, Google Sheets to create calculation formulas, allow easy user accessibility and interaction with the app. 
 
 ### Features & Functionality
 - Cost Calculation: Calculates the cost of BTD6 towers and their upgrades.
 - Difficulty-Based Pricing: Accounts for different in-game difficulties (Easy, Medium, Hard, Impoppable).
 - Interactive Interface: Google Sheets dropdown menus for user accessibility and interaction,
+
+--- 
+
+## Define - Overview
+This objective of this project was to develop a user friendly application for Bloons Tower Defense 6 (BTD6) players to be able to determine how much a in-game Tower unit cost dynamically within Google Sheets. This project includes utilizing Python to acquire and organize data, Google Sheets to create calculation formulas, allow easy user accessibility and interaction with the app. 
 
 ## Project Structure / How it was made
 This project combines 2 major elements: 
