@@ -46,5 +46,11 @@ Formulas for User Interaction: Google Sheets is used to create dynamic formulas 
  - Users can select a specific tower, its desired upgrade path(s), and the game difficulty directly within the Google Sheet interface.
  - Formulas (e.g., VLOOKUP, SUMIFS, INDEX/MATCH combinations) automatically query the organized cost data. Based on the user's selections in the dropdown menus, these formulas calculate the total cost of the chosen tower and its upgrades.
 
-![image](https://github.com/user-attachments/assets/a4b07ded-dfaf-4729-aedb-57bef76f5122)
+![image](https://github.com/user-attachments/assets/f130b443-41d0-4201-94e0-555c45b21b3c)
+
+--- 
+
+# Conclusion
+This project was my first time using Python's built in webscraping libraries, and my first time cleaning real world messy data. My initial scope was to make a simple tool for BTD6 players to be able to quickly be able to tell the cost of a unit in game. I gained experience with formulas and dropdown menus in Excel/Google sheets, and how to make something user friendly and try to hide as much technical elements as possible.
+
 
